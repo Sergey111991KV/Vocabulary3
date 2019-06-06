@@ -8,14 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstViewController: UIViewController {
 
+    @IBOutlet weak var mainLabel: UILabel!
+    
+    @IBOutlet weak var whriterLabel: UILabel!
+    
+    @IBOutlet weak var phraseLabel: UILabel!
+    
+    @IBOutlet weak var startButton: UIButton!
+    
+    @IBAction func startActionBtn(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    
     
 }
 
